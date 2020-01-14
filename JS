@@ -164,7 +164,7 @@ function DefendTheCastle(){
         G:2.0,
         poop_m:0.5
     };
-    var CASTLE_SPRITES = ["🏯","🏫","🏰","CASTLE"];
+    var CASTLE_SPRITES = ["🏯","🏫","🏰"];
     var CASTLE_SPRITE = CASTLE_SPRITES[randVal(0, CASTLE_SPRITES.length - 1)];
     var scoreboard = new Scoreboard(options);
     randomCanvasColor();
